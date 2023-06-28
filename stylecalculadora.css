@@ -1,0 +1,51 @@
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: teal;
+}
+
+body{
+    text-align: center;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: cornsilk;
+}
+
+#text_calc{
+    font-family: monospace;
+    background-color: darkturquoise;
+    border-radius: 10px;
+    border-width: 10px;
+    padding: 1px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#visor{
+    width: 200px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 60px;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: darkseagreen;
+    text-align: right;
+    font-size: xx-large;
+}
+
+#cachorro{
+    display: grid;
+    height: 100px;
+    width: 100px;
+}
